@@ -1,0 +1,156 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 29, 2024, 9:25:59 AM
+    Author     : nvhoa
+*/
+*{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+}
+
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+
+.row h1{
+    text-align: center;
+    font-weight: bold;
+    color: orange;
+    background-color: greenyellow;
+    padding: 20px;
+}
+
+body{
+    background-image: url('../Picture/08.jpg');
+    background-size: contain;
+    min-height: 120vh;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin-top: 70px;
+    text-align: center;
+    font-weight: bold;
+    color: #28a745;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #28a745;
+    color: white;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    background-color: white;
+}
+
+.district-header h2{
+    font-weight: bold;
+    margin-left: 20px;
+    color: orange;
+}
+
+.link {
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.search-container {
+    text-align:  center;
+    margin-bottom: 20px;
+    margin-left: 180px;
+}
+
+.search-container input[type="text"] {
+    padding: 2px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.search-container input[type="submit"] {
+    padding: 4px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.search-container input[type="submit"]:hover {
+    background-color: orange;
+}
+
+.district-header form{
+    text-align:  end;
+    margin: 0px;
+    padding: 0px;
+    margin: auto 10px;
+}
+
+.district-header form input[type="submit"]{
+    margin: 0px;
+    padding: 2px 5px;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: black;
+}
+
+.district-header form input[type="submit"]:hover{
+    color: white;
+    background-color: orange;
+}
+
+.district-header form input[type="date"]{
+    margin: 0px;
+    padding: 0px;
+}
+
+.district-header form input[type="date"]{
+    color: black;
+}
+
+.district-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+td p{
+    margin: 5px;
+}

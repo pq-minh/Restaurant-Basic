@@ -1,0 +1,74 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 2, 2024, 2:36:37 PM
+    Author     : nvhoa
+*/
+*{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+}
+
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('../Picture/1970609.jpg');
+    background-color: #fff9f3;
+    background-size: contain;
+    min-height: 120vh;
+}
+
+.menu-item {
+    background-image:  url('../Picture/2d-vector-banners-rectangle-social-media-cover-ads-with-creative-design-elements-illustration_655090-241874.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+    padding-bottom: 50px;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+}
+
+.menu-item h3 {
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.menu-item form {
+    margin-top: 15px;
+}
+
+.menu-item input[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.menu-item input[type="submit"]:hover {
+    background-color: orange;
+}
+
+.img-header {
+    width: 100%; 
+    height: 60px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+

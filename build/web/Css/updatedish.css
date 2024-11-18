@@ -1,0 +1,215 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 1, 2024, 2:09:05 PM
+    Author     : nvhoa
+*/
+
+*{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+}
+
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('../Picture/08.jpg');
+    background-size: contain;
+    min-height: 120vh;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+table th, table td {
+    padding: 12px 10px;
+    text-align: left;
+    /*    border: none  Loại bỏ viền các ô */
+    font-size: 17px;
+}
+
+tr{
+    border: 1px solid black;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tbody tr {
+    background-color: white;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.cont2 input[type="number"], .cont3 input[type="number"]{
+    width: 100px;
+}
+
+input[type="submit"]{
+    margin-left: 5px;
+    padding: 5px 9px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: orange;
+}
+
+input[type="text"], .cont1 input[type="number"]{
+    color: black;
+    width: 250px;
+    height: 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    border:  none;
+    padding-left: 5px;
+}
+
+.cont1 input[type="text"]::placeholder {
+    font-style: italic;
+}
+.cont1 input[type="number"]::placeholder {
+    font-style: italic;
+}
+.cont1 input[type="submit"] {
+    font-size: 17px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cont1 input[type="submit"]:hover {
+    background-color: orange;
+    color: white;
+}
+
+.cont1{
+    width: fit-content;
+    font-size: 20px;
+    margin: 0px auto;
+    background: rgba(4, 4, 4, 0.56);
+    -webkit-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    box-shadow: 0px 35px 44px -22px #1f181b;
+    padding: 20px 50px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.cont1 h3{
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.cont1 .cont1-sub2 p{
+    text-align: start;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.cont1 .cont1-sub1 p{
+    font-size: 20px;
+    color: orange;
+    margin-top: 7px;
+}
+
+.cont1 .cont1-sub1 h2{
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color:  gray;
+    margin: 20px 0px 20px 0px;
+}
+
+.cont3 h1{
+    color: black;
+    background: #fffcf7;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.cont3 table{
+    margin: 0px auto;
+    width: 70%;
+}
+
+.cont3{
+    padding-bottom: 100px;
+}
+
+.endpage{
+    height: 70px;
+}
+
+.cont1-sub2 p{
+    margin-top: 10px !important;
+}
+
+.cont1-sub2 form select{
+    width: 250px;
+    font-size: 17px;
+    height: 25px;
+    color: black;
+}
+
+.cont1-sub2 textarea{
+    width: 250px;
+    color: black;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-bottom: 5px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.cont1-sub1 img{
+    margin-top: 15px;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.cont1-sub2 a{
+    margin-top: 5px;
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cont3 h1{
+    font-weight: bold;
+}

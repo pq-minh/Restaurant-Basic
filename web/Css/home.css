@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 11, 2024, 8:49:13 PM
+    Author     : Asus
+*/
+
+.home {
+    margin-top: 100px;
+}
+
+.header-text {
+    position: absolute;
+    left: 70%;
+    bottom: 40%;
+    transform: translateX(300%);
+    transform: translateY(250%);
+    z-index: 2;
+    color: white;
+    font-size: 32px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.header-button {
+    position: absolute;
+    left: 77%;
+    top: 600px;
+    bottom: 0;
+    z-index: 2;
+    color: #F5DEB3;
+    font-size: 40px;
+    width: 210px;
+    height: 120px;
+}
+
+.header-button button {
+    width: 160px;
+    height: 90px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.header-text:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+.imghearder {
+    height: 750px;
+    width: 100%;
+}
+
+.headerimg {
+    height: 100%;
+    width: 100%;
+}
+
+.imgmain {
+    width: 150px;
+    margin-left: 150px;
+}
+
+.container1 {
+    width: 1200px;
+    padding-left: 140px;
+}
+
+.item1 {
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    margin-left: 120px;
+}

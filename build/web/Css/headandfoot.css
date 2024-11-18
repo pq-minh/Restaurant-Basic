@@ -1,0 +1,109 @@
+.headerr {
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền và màu chữ */
+    z-index: 100;
+}
+
+.headerr.scrolled {
+    background-color: #ffffff;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between; /* Căn đều các phần tử con */
+    align-items: center; /* Căn theo chiều dọc */
+    height: 100%; /* Đảm bảo các phần tử con căn giữa theo chiều dọc */
+}
+
+.logo-container {
+    flex: 0 0 auto; /* Đảm bảo logo không co dãn */
+}
+
+.nav {
+    flex: 1; /* Đảm bảo nav chiếm phần còn lại của không gian */
+    display: flex;
+    justify-content: flex-end; /* Căn các mục menu về phía bên phải */
+}
+
+a {
+    color: #000000; /* Màu chữ khi chưa cuộn trang */
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.headerr.scrolled a {
+    color: #000000; /* Màu chữ khi cuộn trang */
+}
+
+
+.headerr.scrolled a:hover {
+    color: #00cccc; /* Màu chữ khi cuộn trang */
+}
+
+a:hover {
+    color: #00ccff; /* Màu chữ khi hover */
+    background-color: transparent; /* Đảm bảo nền trong suốt */
+}
+
+.logo {
+    width: auto;
+    height: 50px;
+    padding-left: 30px;
+}
+
+/*---------------------------submenu------------------------*/
+
+.nav .sub-menu {
+    display: none; /* Mặc định ẩn submenu */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white; 
+    z-index: 1;
+}
+
+.nav .account-menu:hover .sub-menu {
+    display: block; /* Hiển thị submenu khi hover vào account-menu */
+}
+
+.nav .sub-menu li {
+    padding: 7px 5px;
+    list-style-type: none; /* Loại bỏ dấu chấm phía trước */
+}
+
+.nav .sub-menu li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav .sub-menu li a:hover {
+    color: #00cccc;
+    background-color: transparent;
+}
+
+/*---------------cart--------------------------------*/
+
+.cart {
+    width: 26px;
+    height: 26px;
+    margin-top: -5px;
+}
+
+/*---------------------footer----------------------*/
+.footerr {
+    background-color: #F5DEB3;
+    height: 100px;
+    width: 100.8%;
+    margin-left: -10px;
+    margin-right: 10000px;
+    text-align: center;
+}
+
+.search-box input[type="text"], .search-box input[type="submit"] {
+    margin: 0 5px; /* Điều chỉnh margin khi cần thiết */
+}

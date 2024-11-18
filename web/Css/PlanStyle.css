@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 20, 2024, 5:53:19 PM
+    Author     : Asus
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.img-header {
+    width: 100%;
+    height: 65px;
+}
+.header-text {
+    position: absolute;
+    left: 30%;
+    bottom: 60%;
+    text-align: center;
+    z-index: 2;
+    color: black;
+    font-size: 100px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.header-text:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffff;
+}
+.headtext {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.headtext h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+/*-----------------------table--------------------------*/
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+}
+.day {
+    width: 100px;
+    font-weight: bold;
+    color: #555;
+}
+td {
+    text-align: center;
+}
+.button-remove {
+    background-color: #fff9f3;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button-remove:hover {
+    background-color: #ffe6e0;
+}
+.button-remove img {
+    width: 12px;
+}
+.message {
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.login-form {
+    text-align: center;
+    margin-top: 20px;
+}
+.login-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.login-form button:hover {
+    background-color: #45a049;
+}

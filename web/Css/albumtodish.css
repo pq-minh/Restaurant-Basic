@@ -1,0 +1,44 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 3, 2024, 1:11:33 PM
+    Author     : nvhoa
+*/
+
+body {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.album img {
+    width: 350px;
+    height: 233px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 15px;
+}
+.album img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+hr.custom-hr {
+    border: none;
+    height: 1px;
+    background-color:  gray;
+    margin: 10px 0px 20px 0px;
+}
+.title{
+    text-align: start;
+    font-weight: bold;
+}
+
